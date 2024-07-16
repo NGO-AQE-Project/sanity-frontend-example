@@ -1,0 +1,20 @@
+body {
+  background-color: #adadadaa;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  div {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+.post {
+  align-self: flex-start;
+  width: 100%;
+}
